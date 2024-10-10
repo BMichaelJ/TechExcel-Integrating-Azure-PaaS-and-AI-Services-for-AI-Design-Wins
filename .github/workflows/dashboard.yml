@@ -66,5 +66,9 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
+<<<<<<< HEAD
         app-name: 'gtsdlqwo27mxa-dash'
+=======
+        app-name: 'gtsdlqwo27mxacosureg-dash'
+>>>>>>> f5bed2f7ddffb31eb54b76daff2d1bed62658b2f
         images: gtsdlqwo27mxacosureg.azurecr.io/techexcel/csdash:${{github.run_number}}
